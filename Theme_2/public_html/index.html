@@ -18,7 +18,10 @@
           <!--End logo class-->
           <div class="searchform">
             <input type="text" name="searchform" />
-            <input type="submit" value="Search"/>
+            <input type="submit" value=""  id="submit"/>
+            <label for="submit">
+              <img src="image/searchicon.png" />
+            </label>
           </div>
           <div class="top-nav">
             <ul>
@@ -38,33 +41,36 @@
       <!-- end slogan -->
 
       <div class="slider clearfix">
-
+        <span id="r"><img src="image/right-arrow.png"/></span>
+        <span id="l"><img src="image/left-arrow.png"/></span>
         <input type="radio" name="slider-switch" id="id1" checked="checked"/>
         <label for="id1">
           <img src="image/slider1.jpg"/>
-          <!-- <span><h3>Slide caption 1</h3></span>
-          <span>Slide caption  is shown here</span>
-          -->
+          <span>Slide caption 1</span>
         </label>
 
         <input type="radio" name="slider-switch" id="id2"/>
         <label for="id2">
           <img src="image/rectangle1.png"/>
+          <span>Slide caption 2</span>
         </label>
 
         <input type="radio" name="slider-switch" id="id3"/>
         <label for="id3">
           <img src="image/logo.jpg"/>
+          <span>Slide caption 3</span>
         </label>
 
         <input type="radio" name="slider-switch" id="id4"/>
         <label for="id4">
           <img src="image/slider1.jpg"/>
+          <span>Slide caption 4</span>
         </label>
 
         <input type="radio" name="slider-switch" id="id5"/>
         <label for="id5">
           <img src="image/slider1.jpg"/>
+          <span>Slide caption 5</span>
         </label>
 
       </div>
@@ -190,7 +196,6 @@
             <span>
               <input type="text" placeholder="Name"/>
               <input type="email" placeholder="Email"/>
-              <textarea rows=5 placeholder="Message"></textarea>
               <input type="submit" />
             </span>
           </form>
